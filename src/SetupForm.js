@@ -13,7 +13,7 @@ const SetupForm = () => {
             <label htmlFor="amount">number of questions</label>
             <input
               type="number"
-              name="number"
+              name="amount"
               id="amount"
               value={quiz.amount}
               onChange={handleChange}
